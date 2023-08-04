@@ -3,7 +3,6 @@ package com.vinimanfrin.course.services;
 import com.vinimanfrin.course.entites.Order;
 import com.vinimanfrin.course.repositories.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
