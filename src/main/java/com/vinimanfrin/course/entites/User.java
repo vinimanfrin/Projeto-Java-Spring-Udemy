@@ -20,7 +20,7 @@ public class User implements Serializable {
     private String password;
 
     @JsonIgnore
-    @OneToMany(mappedBy = "client")
+    @OneToMany(mappedBy = "client") // a propriedade "client" na entidade Order é usada para mapear o relacionamento.
     private List<Order> orders = new ArrayList<>();
 
     public User(){
