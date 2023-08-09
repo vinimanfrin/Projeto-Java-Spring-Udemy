@@ -33,6 +33,9 @@ public class Order implements Serializable {
     public Order() {
     }
 
+    @OneToOne(mappedBy = "order", cascade = CascadeType.ALL)//em relacionamentos um para um , estamos mapeando as duas  entidades para ter o mesmo id
+    private Payment payment;
+
     public Order(Long id, Instant moment,OrderStatus orderStatus, User client) {
         this.id = id;
         this.moment = moment;
@@ -77,6 +80,13 @@ public class Order implements Serializable {
         return items;
     }
 
+    public Payment getPayment() {
+        return payment;
+    }
+
+    public void setPayment(Payment payment) {
+        this.payment = payment;
+    }
 
     @Override
     public boolean equals(Object o) {
