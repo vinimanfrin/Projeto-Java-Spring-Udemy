@@ -1,13 +1,11 @@
 package com.vinimanfrin.course.resources;
 
 import com.vinimanfrin.course.entites.Product;
+import com.vinimanfrin.course.entites.User;
 import com.vinimanfrin.course.services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -28,4 +26,6 @@ public class ProductResource {
         Product obj  = service.findByID(id);
         return ResponseEntity.ok().body(obj);
     }
+
+
 }
