@@ -1,4 +1,3 @@
-![waving-hand_1f44b](https://github.com/vinimanfrin/Projeto-Java-Spring/assets/129402489/e490aa04-7c0a-491d-a05b-6e88da202e68)
 # Projeto-Java-Spring
 ## Projeto Web services com Spring Boot e JPA / Hinernate realizado em estudos com a Udemy
 
