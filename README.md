@@ -1,7 +1,7 @@
 # Projeto-Java-Spring
 ## Projeto Web services com Spring Boot e JPA / Hinernate realizado em estudos com a Udemy
 
-### Neste projeto , consegui adquirir/aumentar conhecimentos em :
+### Neste projeto , consegui adquirir/aprimorar conhecimentos em :
 - Criar um projeto Spring Boot Java
 - Implementar modelo de domínio
 - Estruturar camadas lógicas : resource, service , repository
